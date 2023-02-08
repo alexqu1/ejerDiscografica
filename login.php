@@ -10,7 +10,7 @@
     
     <form action="incComprobarlogin.php" method="post">
     <label for="">Usuario</label>
-    <input type="text" name="usuarios" id="">
+    <input type="text" name="usuario" id="">
     <label for="">contraseña</label>
     <input type="text" name="pass" id="">
 

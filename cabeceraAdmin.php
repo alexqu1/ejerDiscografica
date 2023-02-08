@@ -18,11 +18,11 @@ session_start();
     
 <header style="background-color: aqua;">
     <div>
-<h1>discografica ALEX</h1> 
+<h1>discografica ALEX (Administrador)</h1> 
 </div>
 <aside>
 <button> <a href="principaluser.php">INICIO LISTADO DE DISCOS</a> </button>
-<button> <a href="ListadoPeliculasAlquiladas.php">Listar DISCOS Alquilados</a> </button>
+<button> <a href="ListadoClientes.php">Listado clientes Registrados</a> </button>
 
 </aside>
 

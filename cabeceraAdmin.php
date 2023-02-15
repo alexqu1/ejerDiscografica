@@ -21,8 +21,9 @@ session_start();
 <h1>discografica ALEX (Administrador)</h1> 
 </div>
 <aside>
-<button> <a href="principaluser.php">INICIO LISTADO DE DISCOS</a> </button>
+<button> <a href="principalAdmin.php">INICIO LISTADO DE DISCOS</a> </button>
 <button> <a href="ListadoClientes.php">Listado clientes Registrados</a> </button>
+<button> <a href="RegistroPeliculas.php">Registro Discos</a> </button>
 
 </aside>
 

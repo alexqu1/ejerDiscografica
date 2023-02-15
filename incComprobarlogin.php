@@ -24,11 +24,11 @@ $paquete2=mysqli_query($conexion, $consulta);
   while($fila=mysqli_fetch_array($paquete2)){
       $_SESSION['logueado'] = true;
       $_SESSION['usuario'] = $usuarioInsertado;
-      if ($usuarioInsertado === $fila['usuario'] and $fila['rol']==="admin") {
+      if ($usuarioInsertado == $fila['usuario'] and $fila['rol']=="admin") {
           header('Location:principalAdmin.php');
         
       }else{
-         // header('Location:principaluser.php');
+          header('Location:principaluser.php');
       }
   }
   

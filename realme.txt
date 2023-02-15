@@ -1,8 +1,5 @@
 
 
-- Eliminación de clientes
-- Eliminación de películas
-- Modificar listado de clientes
 - Modificar listado de películas
 -Préstamo de películas
 -Devolución de películas

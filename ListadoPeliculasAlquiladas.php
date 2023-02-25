@@ -12,14 +12,9 @@
  
 
  
-//  $consulta="SELECT p.título
-// FROM discos p
-// INNER JOIN talquileres a ON p.id = a.id_disco
-// INNER JOIN usuarios u ON a.id_usuario = u.id
-// WHERE u.usuario = '$usuario';
-//  ";
 
-//$consulta="select * from discos where alquilada='si' ";
+
+$consulta="select * from discos where alquilada='si' ";
 $paquete=mysqli_query($conexion, $consulta);
 
 
@@ -27,7 +22,7 @@ $paquete=mysqli_query($conexion, $consulta);
 while($fila=mysqli_fetch_array($paquete)){
   echo '  <div>
   <p> Nombre  : ' . $fila["titulo"] . 'Descripcion   : ' . $fila["descripcion"] . '  Alquilada :'. $fila["alquilada"] .'
-  <a href="AlquilarDevolverPelicula.php?id=' .$fila['id']  . '&value=no">Devolver esta pelicula</a>
+  <a href="DevolverDisco.php?id=' .$fila['id']  . '&value=no">Devolver este Disco</a>
 </div>' ;}
 
 

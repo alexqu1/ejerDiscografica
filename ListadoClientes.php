@@ -4,7 +4,7 @@
 $consulta="select * from usuarios where usuario!='admin' ";
 $paquete=mysqli_query($conexion, $consulta);
 
-echo "<h2>Listado de Peliculas</h2>";
+echo "<h2>Listado de Discos</h2>";
 
 while($fila=mysqli_fetch_array($paquete)){
   echo '  <div>

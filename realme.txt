@@ -1,6 +1,0 @@
-
-
-- Modificar listado de películas
--Préstamo de películas
--Devolución de películas
--Listado de películas alquiladas
